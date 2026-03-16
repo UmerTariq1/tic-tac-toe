@@ -13,6 +13,10 @@
   <div class="game">
     <h1 class="title">Tic Tac Toe</h1>
     <p class="status" aria-live="polite">X's turn</p>
+    <div class="timer-wrap" aria-hidden="true">
+      <div class="timer-bar" id="timer-bar"></div>
+      <span class="timer-text" id="timer-text">15</span>
+    </div>
     <div class="board" role="grid" aria-label="Game board">
       <button type="button" class="cell" data-index="0" aria-label="Cell 1"></button>
       <button type="button" class="cell" data-index="1" aria-label="Cell 2"></button>
