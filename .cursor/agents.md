@@ -1,0 +1,3 @@
+- Always run tests after making code changes
+- Prefer small focused commits over large ones
+- After every code change that affects the frontend, open index.html in the browser and verify the UI looks correct. Report any visual issues before marking the task complete.

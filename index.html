@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1 class="title">Tic Tac Toe</h1>
+    <p class="status" aria-live="polite">X's turn</p>
+    <div class="board" role="grid" aria-label="Game board">
+      <button type="button" class="cell" data-index="0" aria-label="Cell 1"></button>
+      <button type="button" class="cell" data-index="1" aria-label="Cell 2"></button>
+      <button type="button" class="cell" data-index="2" aria-label="Cell 3"></button>
+      <button type="button" class="cell" data-index="3" aria-label="Cell 4"></button>
+      <button type="button" class="cell" data-index="4" aria-label="Cell 5"></button>
+      <button type="button" class="cell" data-index="5" aria-label="Cell 6"></button>
+      <button type="button" class="cell" data-index="6" aria-label="Cell 7"></button>
+      <button type="button" class="cell" data-index="7" aria-label="Cell 8"></button>
+      <button type="button" class="cell" data-index="8" aria-label="Cell 9"></button>
+    </div>
+    <button type="button" class="restart">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
